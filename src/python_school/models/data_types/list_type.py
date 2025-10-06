@@ -354,8 +354,6 @@ class list_type:
     def combinations_with_replacement(self, r):
         from itertools import combinations_with_replacement
         return list_type([list_type(c) for c in combinations_with_replacement(self.values, r)])
-        
-        # main method to access the important functions above
 
     def get_methods(self):
         return list_type([
