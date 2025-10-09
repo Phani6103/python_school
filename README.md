@@ -101,7 +101,7 @@ pip install -e .
 
 # you can safely delete it and reinstall:
 rm -rf src/python_school.egg-info
-pip install -e .
+pip install -e .3
 
 ----
 
