@@ -12,3 +12,7 @@ src/python_school/models/__init__.py
 src/python_school/models/base_model.py
 src/python_school/models/data_types/__init__.py
 src/python_school/models/data_types/list_type.py
+src/python_school/models/numpy/core_concepts.py
+src/python_school/models/pandas/pd_core_concepts.py
+src/python_school/services/__init__.py
+src/python_school/services/yfinance_service.py
