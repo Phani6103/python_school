@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/python_school/__init__.py
+src/python_school/core.py
+src/python_school/utils.py
+src/python_school.egg-info/PKG-INFO
+src/python_school.egg-info/SOURCES.txt
+src/python_school.egg-info/dependency_links.txt
+src/python_school.egg-info/requires.txt
+src/python_school.egg-info/top_level.txt
+src/python_school/models/__init__.py
+src/python_school/models/base_model.py
+src/python_school/models/data_types/__init__.py
+src/python_school/models/data_types/list_type.py

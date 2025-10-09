@@ -295,7 +295,7 @@ class list_type:
         temp_values = list_type(self.values)
         temp_values.sort(key=key, reverse=reverse)
         
-        return self.values == temp_values
+        return self.values == temp_values.values
         
 
     def find_duplicates(self):

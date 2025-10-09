@@ -1,3 +1,26 @@
+Metadata-Version: 2.4
+Name: python-school
+Version: 0.1.0
+Summary: Educational utilities, models, and helpers for the python_school package.
+Author: Phani Kumar Mashetti
+License: Proprietary
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: ruff>=0.5.0; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: pytest-cov-html>=4.1; extra == "dev"
+Requires-Dist: pre-commit>=3.7; extra == "dev"
+
 Here’s a clear, PEP 8-aligned naming guide for Python projects — both for code inside the project and for the overall repo/package layout.
 
 ⸻
@@ -82,26 +105,3 @@ Private (internal)	leading underscore	_calculate_price()
 	•	Private: _leading_underscore
 
 ⸻
-
-
- ## the *.egg-info folder
- is **metadata** automatically created by Python packaging tools such as `setuptools` or `pip`.  
-
-Let’s break it down 👇
-
----
-
-## 🥚 What is an `.egg-info` Folder?
-
-When you run commands like:
-```bash
-python setup.py install
-# or
-pip install -e .
-
-# you can safely delete it and reinstall:
-rm -rf src/python_school.egg-info
-pip install -e .
-
-----
-
