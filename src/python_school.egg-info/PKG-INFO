@@ -13,6 +13,7 @@ Classifier: License :: Other/Proprietary License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24
 Provides-Extra: dev
 Requires-Dist: pytest>=8.2; extra == "dev"
 Requires-Dist: ruff>=0.5.0; extra == "dev"
@@ -105,3 +106,26 @@ Private (internal)	leading underscore	_calculate_price()
 	•	Private: _leading_underscore
 
 ⸻
+
+
+ ## the *.egg-info folder
+ is **metadata** automatically created by Python packaging tools such as `setuptools` or `pip`.  
+
+Let’s break it down 👇
+
+---
+
+## 🥚 What is an `.egg-info` Folder?
+
+When you run commands like:
+```bash
+python setup.py install
+# or
+pip install -e .
+
+# you can safely delete it and reinstall:
+rm -rf src/python_school.egg-info
+pip install -e .3
+
+----
+
